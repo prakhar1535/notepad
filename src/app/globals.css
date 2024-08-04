@@ -18,6 +18,3 @@ body {
 .MuiBox-root:focus-visible {
   outline: none !important;
 }
-.MuiBox-root {
-  border: none !important;
-}

@@ -50,7 +50,7 @@ const CreateCard = ({ setTitle }) => {
           value={formik.values.title}
           onChange={(e) => {
             formik.handleChange(e);
-            setTitle(e.target.value); // Update the title state in CreateNote
+            setTitle(e.target.value);
           }}
           onBlur={formik.handleBlur}
           error={formik.touched.title && Boolean(formik.errors.title)}

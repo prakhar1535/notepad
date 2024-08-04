@@ -12,6 +12,7 @@ const Navbar = () => {
     { name: "My Notes", link: "/" },
   ];
   console.log(process.env.NEXT_PUBLIC_OPEN_AI);
+  console.log(process.env.NEXT_PUBLIC_SERP_API_KEY);
   const [modalOpen, setModalOpen] = useState<boolean>(false);
 
   const handleOpenModal = () => {
@@ -43,7 +44,7 @@ const Navbar = () => {
           display={"flex"}
           padding={"10px"}
           sx={{
-            border: `1px solid ${colorConstants.black}`,
+            border: `2px solid ${colorConstants.black}`,
             borderRadius: "20px",
             "& :hover": {
               backgroundColor: colorConstants.black,
