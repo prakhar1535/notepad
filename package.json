@@ -13,9 +13,17 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
+    "@svgr/webpack": "^8.1.0",
+    "@syncfusion/ej2-react-richtexteditor": "^26.2.7",
+    "@syncfusion/ej2-richtexteditor": "^26.2.7",
+    "ai": "^3.3.0",
+    "formik": "^2.4.6",
     "next": "14.2.5",
+    "openai": "^4.54.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-quill": "^2.0.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Providers from "@/lib/Providers";
 import { Box } from "@mui/material";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
@@ -23,10 +24,11 @@ export default function RootLayout({
         <Providers>
           <Box
             sx={{
-              paddingX: "160px",
-              paddingY: "70px",
+              paddingX: "300px",
+              paddingY: "170px",
             }}
           >
+            <Navbar />
             {children}
           </Box>
         </Providers>
