@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.2.12",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
+    "@prisma/client": "^5.17.0",
+    "@supabase/supabase-js": "^2.45.0",
     "@svgr/webpack": "^8.1.0",
     "@syncfusion/ej2-react-richtexteditor": "^26.2.7",
     "@syncfusion/ej2-richtexteditor": "^26.2.7",
     "ai": "^3.3.0",
+    "convex": "^1.13.2",
     "dotenv": "^16.4.5",
     "formik": "^2.4.6",
     "next": "14.2.5",
@@ -33,6 +37,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "prisma": "^5.17.0",
     "typescript": "^5"
   }
 }
