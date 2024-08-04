@@ -3,10 +3,10 @@ import React from "react";
 import { Box, TextField, Button, Typography } from "@mui/material";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import ReactQuill from "react-quill";
+import dynamic from "next/dynamic";
 import "react-quill/dist/quill.snow.css"; // Import the styles
 import { colorConstants } from "@/theme/colorConstants";
-
+const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 const validationSchema = Yup.object({
   title: Yup.string().required("Title is required"),
   description: Yup.string(),
