@@ -82,6 +82,7 @@ const CreateCard = ({ setTitle }) => {
       <Button
         sx={{
           textTransform: "none",
+          display: { md: "block", xs: "none" },
           padding: { md: "6px 24px", xs: "4px 14px" },
           width: "fit-content",
           borderRadius: "10px",

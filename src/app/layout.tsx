@@ -25,7 +25,7 @@ export default function RootLayout({
           <Box
             sx={{
               paddingX: { md: "300px", xs: "50px" },
-              paddingY: "170px",
+              paddingY: { md: "170px", xs: "60px" },
             }}
           >
             <Navbar />

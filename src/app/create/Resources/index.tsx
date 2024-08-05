@@ -5,7 +5,11 @@ import React from "react";
 const Resources = () => {
   return (
     <>
-      <Box display={"flex"} flexDirection={"column"}>
+      <Box
+        display={"flex"}
+        flexDirection={"column"}
+        marginTop={{ md: "0", xs: "50px" }}
+      >
         <Typography
           sx={{
             fontSize: "18px",

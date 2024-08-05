@@ -100,6 +100,7 @@ const CreateNote = () => {
                 "&:hover": {
                   backgroundColor: colorConstants.fontGray,
                 },
+                display: { md: "block", xs: "none" },
               }}
             >
               <Typography
@@ -126,7 +127,7 @@ const CreateNote = () => {
         </Box>
         <CreateCard setTitle={setTitle} />
         {showResources && (
-          <Box marginTop={"30px"}>
+          <Box marginTop={{ md: "30px", xs: "90px" }}>
             <Box display={"flex"} flexDirection={"column"}>
               {" "}
               <Typography
@@ -191,6 +192,32 @@ const CreateNote = () => {
             </Box>
           </Box>
         )}
+        <Button
+          onClick={handleSaveClick}
+          sx={{
+            textTransform: "none",
+            padding: { md: "6px 24px", xs: "4px 14px" },
+            borderRadius: "10px",
+            cursor: "pointer",
+            backgroundColor: colorConstants.black,
+            color: colorConstants.white,
+            "&:hover": {
+              backgroundColor: colorConstants.fontGray,
+            },
+            marginTop: "20px",
+            display: { md: "none", xs: "block" },
+          }}
+        >
+          <Typography
+            sx={{
+              fontSize: { md: "18px", xs: "14px" },
+              fontWeight: "500",
+              letterSpacing: ".8px",
+            }}
+          >
+            Save Note
+          </Typography>
+        </Button>
       </Box>
 
       <ConfirmationModal

@@ -33,7 +33,7 @@ const Navbar = () => {
           width: "100%",
           paddingY: { xs: "20px", md: "70px" },
           paddingX: { md: "200px", xs: "24px" },
-          backgroundColor: "transparent",
+          backgroundColor: "white",
           color: colorConstants.black,
           boxShadow: "none",
           justifyContent: "space-between",
