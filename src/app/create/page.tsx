@@ -204,7 +204,7 @@ const CreateNote = () => {
             "&:hover": {
               backgroundColor: colorConstants.fontGray,
             },
-            marginTop: "20px",
+            marginTop: showResources ? "20px" : "80px",
             display: { md: "none", xs: "block" },
           }}
         >
