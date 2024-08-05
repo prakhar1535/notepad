@@ -36,7 +36,7 @@ const CreateCard = ({ setTitle }) => {
       <Box display={"flex"} flexDirection={"column"} gap={"10px"}>
         <Typography
           sx={{
-            fontSize: "18px",
+            fontSize: { md: "18px", xs: "14px" },
             color: colorConstants.black,
             fontWeight: "600",
           }}
@@ -60,7 +60,7 @@ const CreateCard = ({ setTitle }) => {
       <Box display={"flex"} flexDirection={"column"} gap={"10px"}>
         <Typography
           sx={{
-            fontSize: "18px",
+            fontSize: { md: "18px", xs: "14px" },
             color: colorConstants.black,
             fontWeight: "600",
           }}
@@ -82,7 +82,7 @@ const CreateCard = ({ setTitle }) => {
       <Button
         sx={{
           textTransform: "none",
-          padding: "6px 24px",
+          padding: { md: "6px 24px", xs: "4px 14px" },
           width: "fit-content",
           borderRadius: "10px",
           cursor: "pointer",
@@ -91,12 +91,12 @@ const CreateCard = ({ setTitle }) => {
           "&:hover": {
             backgroundColor: colorConstants.fontGray,
           },
-          marginTop: "50px",
+          marginTop: { md: "50px", xs: "80px" },
         }}
       >
         <Typography
           sx={{
-            fontSize: "18px",
+            fontSize: { md: "18px", xs: "14px" },
             fontWeight: "500",
             letterSpacing: ".8px",
           }}

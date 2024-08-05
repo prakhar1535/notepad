@@ -81,8 +81,8 @@ const CreateNote = () => {
           >
             <Typography
               sx={{
-                fontSize: "60px",
-                lineHeight: "80px",
+                fontSize: { md: "60px", xs: "28px" },
+                lineHeight: { md: "80px", xs: "34px" },
                 color: colorConstants.black,
               }}
             >
@@ -92,7 +92,7 @@ const CreateNote = () => {
               onClick={handleSaveClick}
               sx={{
                 textTransform: "none",
-                padding: "6px 24px",
+                padding: { md: "6px 24px", xs: "4px 14px" },
                 borderRadius: "10px",
                 cursor: "pointer",
                 backgroundColor: colorConstants.black,
@@ -104,7 +104,7 @@ const CreateNote = () => {
             >
               <Typography
                 sx={{
-                  fontSize: "18px",
+                  fontSize: { md: "18px", xs: "14px" },
                   fontWeight: "500",
                   letterSpacing: ".8px",
                 }}
@@ -115,7 +115,7 @@ const CreateNote = () => {
           </Box>
           <Typography
             sx={{
-              fontSize: "18px",
+              fontSize: { md: "18px", xs: "14px" },
               lineHeight: "24px",
               color: colorConstants.fontGray,
               fontWeight: "600",
@@ -131,7 +131,7 @@ const CreateNote = () => {
               {" "}
               <Typography
                 sx={{
-                  fontSize: "18px",
+                  fontSize: { md: "18px", xs: "14px" },
                   fontWeight: "600",
                 }}
               >

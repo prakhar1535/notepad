@@ -44,7 +44,10 @@ const Navbar = () => {
           display={"flex"}
           padding={"10px"}
           sx={{
-            border: `2px solid ${colorConstants.black}`,
+            border: {
+              md: `2px solid ${colorConstants.black}`,
+              xs: `1px solid ${colorConstants.black}`,
+            },
             borderRadius: "20px",
             "& :hover": {
               backgroundColor: colorConstants.black,
@@ -62,14 +65,14 @@ const Navbar = () => {
               }}
               sx={{
                 textTransform: "none",
-                padding: "6px 24px",
+                padding: { md: "6px 24px", xs: "4px 14px" },
                 borderRadius: "10px",
                 cursor: "pointer",
               }}
             >
               <Typography
                 sx={{
-                  fontSize: "18px",
+                  fontSize: { md: "18px", xs: "14px" },
                   fontWeight: "500",
                   letterSpacing: ".8px",
                 }}
