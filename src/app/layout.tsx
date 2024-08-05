@@ -24,7 +24,7 @@ export default function RootLayout({
         <Providers>
           <Box
             sx={{
-              paddingX: { md: "300px", xs: "50px" },
+              paddingX: { md: "300px", xs: "20px" },
               paddingY: { md: "170px", xs: "60px" },
             }}
           >
